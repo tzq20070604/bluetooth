@@ -1,0 +1,10 @@
+${PODS_ROOT}/Target Support Files/Pods-BlueTooth/Pods-BlueTooth-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
+${BUILT_PRODUCTS_DIR}/CustomIOSAlertView/CustomIOSAlertView.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/TYAlertController/TYAlertController.framework
+${BUILT_PRODUCTS_DIR}/XJPCategoryKit/XJPCategoryKit.framework
+${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework

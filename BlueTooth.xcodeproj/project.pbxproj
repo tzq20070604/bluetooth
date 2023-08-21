@@ -8,27 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		7083C3152A8CE2AB0045E13C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7083C3142A8CE2AB0045E13C /* AppDelegate.m */; };
-		7083C3182A8CE2AB0045E13C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7083C3172A8CE2AB0045E13C /* SceneDelegate.m */; };
-		7083C31B2A8CE2AB0045E13C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7083C31A2A8CE2AB0045E13C /* ViewController.m */; };
 		7083C31E2A8CE2AB0045E13C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7083C31C2A8CE2AB0045E13C /* Main.storyboard */; };
 		7083C3202A8CE2AC0045E13C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7083C31F2A8CE2AC0045E13C /* Assets.xcassets */; };
 		7083C3232A8CE2AC0045E13C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7083C3212A8CE2AC0045E13C /* LaunchScreen.storyboard */; };
 		7083C3262A8CE2AC0045E13C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7083C3252A8CE2AC0045E13C /* main.m */; };
+		7092A33A2A8E352E00A8521E /* DisplayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7092A3392A8E352E00A8521E /* DisplayModel.m */; };
+		70A5DED42A8DEB7E00334431 /* PanelTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A5DED32A8DEB7E00334431 /* PanelTableCell.m */; };
+		70A5DED72A8DEC4500334431 /* CoreBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A5DED62A8DEC4500334431 /* CoreBluetoothManager.m */; };
+		70A5DEDA2A8DEFF600334431 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A5DED92A8DEFF600334431 /* ViewController.m */; };
+		70A5DEE02A8DF1AB00334431 /* BlueToothModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A5DEDE2A8DF1AA00334431 /* BlueToothModel.m */; };
+		70A5DEE12A8DF1AB00334431 /* BlueToothTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A5DEDF2A8DF1AB00334431 /* BlueToothTableViewCell.m */; };
+		70A5DEE42A8DF1D200334431 /* PeripheralDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A5DEE32A8DF1D200334431 /* PeripheralDetailViewController.m */; };
+		70A5DEE72A8DF8D600334431 /* CBPeripheral+KVOState.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A5DEE62A8DF8D600334431 /* CBPeripheral+KVOState.m */; };
+		70A5DEEA2A8DFAD500334431 /* NSObject+MethodExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A5DEE92A8DFAD500334431 /* NSObject+MethodExchange.m */; };
+		786F1138EBBAF9F32DBC560A /* Pods_BlueTooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E15F57DA4FE5017C6BEF7BD /* Pods_BlueTooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E15F57DA4FE5017C6BEF7BD /* Pods_BlueTooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueTooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7083C3102A8CE2AB0045E13C /* BlueTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7083C3132A8CE2AB0045E13C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7083C3142A8CE2AB0045E13C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7083C3162A8CE2AB0045E13C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		7083C3172A8CE2AB0045E13C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		7083C3192A8CE2AB0045E13C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7083C31A2A8CE2AB0045E13C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7083C31D2A8CE2AB0045E13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7083C31F2A8CE2AC0045E13C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7083C3222A8CE2AC0045E13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7083C3242A8CE2AC0045E13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7083C3252A8CE2AC0045E13C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7092A3382A8E352E00A8521E /* DisplayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayModel.h; sourceTree = "<group>"; };
+		7092A3392A8E352E00A8521E /* DisplayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayModel.m; sourceTree = "<group>"; };
+		70A5DED22A8DEB7E00334431 /* PanelTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanelTableCell.h; sourceTree = "<group>"; };
+		70A5DED32A8DEB7E00334431 /* PanelTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanelTableCell.m; sourceTree = "<group>"; };
+		70A5DED52A8DEC4400334431 /* CoreBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreBluetoothManager.h; sourceTree = "<group>"; };
+		70A5DED62A8DEC4500334431 /* CoreBluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreBluetoothManager.m; sourceTree = "<group>"; };
+		70A5DED82A8DEFF600334431 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70A5DED92A8DEFF600334431 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70A5DEDB2A8DF1AA00334431 /* BlueToothModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothModel.h; sourceTree = "<group>"; };
+		70A5DEDC2A8DF1AA00334431 /* BlueToothTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothTableViewCell.h; sourceTree = "<group>"; };
+		70A5DEDE2A8DF1AA00334431 /* BlueToothModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothModel.m; sourceTree = "<group>"; };
+		70A5DEDF2A8DF1AB00334431 /* BlueToothTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothTableViewCell.m; sourceTree = "<group>"; };
+		70A5DEE22A8DF1D200334431 /* PeripheralDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralDetailViewController.h; sourceTree = "<group>"; };
+		70A5DEE32A8DF1D200334431 /* PeripheralDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralDetailViewController.m; sourceTree = "<group>"; };
+		70A5DEE52A8DF8D600334431 /* CBPeripheral+KVOState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+KVOState.h"; sourceTree = "<group>"; };
+		70A5DEE62A8DF8D600334431 /* CBPeripheral+KVOState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+KVOState.m"; sourceTree = "<group>"; };
+		70A5DEE82A8DFAD500334431 /* NSObject+MethodExchange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodExchange.h"; sourceTree = "<group>"; };
+		70A5DEE92A8DFAD500334431 /* NSObject+MethodExchange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodExchange.m"; sourceTree = "<group>"; };
+		D8BFB95E8B490A595DA2EE13 /* Pods-BlueTooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueTooth.release.xcconfig"; path = "Target Support Files/Pods-BlueTooth/Pods-BlueTooth.release.xcconfig"; sourceTree = "<group>"; };
+		E248E180308245B4639C6C00 /* Pods-BlueTooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueTooth.debug.xcconfig"; path = "Target Support Files/Pods-BlueTooth/Pods-BlueTooth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				786F1138EBBAF9F32DBC560A /* Pods_BlueTooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		248A89E262968B5ABB8B539B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E248E180308245B4639C6C00 /* Pods-BlueTooth.debug.xcconfig */,
+				D8BFB95E8B490A595DA2EE13 /* Pods-BlueTooth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7083C3072A8CE2AB0045E13C = {
 			isa = PBXGroup;
 			children = (
 				7083C3122A8CE2AB0045E13C /* BlueTooth */,
 				7083C3112A8CE2AB0045E13C /* Products */,
+				248A89E262968B5ABB8B539B /* Pods */,
+				E85D6F39409841B5862EE2D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +98,41 @@
 		7083C3122A8CE2AB0045E13C /* BlueTooth */ = {
 			isa = PBXGroup;
 			children = (
+				70A5DEDB2A8DF1AA00334431 /* BlueToothModel.h */,
+				70A5DEDE2A8DF1AA00334431 /* BlueToothModel.m */,
+				7092A3382A8E352E00A8521E /* DisplayModel.h */,
+				7092A3392A8E352E00A8521E /* DisplayModel.m */,
+				70A5DEDC2A8DF1AA00334431 /* BlueToothTableViewCell.h */,
+				70A5DEDF2A8DF1AB00334431 /* BlueToothTableViewCell.m */,
+				70A5DEE22A8DF1D200334431 /* PeripheralDetailViewController.h */,
+				70A5DEE32A8DF1D200334431 /* PeripheralDetailViewController.m */,
+				70A5DED52A8DEC4400334431 /* CoreBluetoothManager.h */,
+				70A5DED62A8DEC4500334431 /* CoreBluetoothManager.m */,
+				70A5DED82A8DEFF600334431 /* ViewController.h */,
+				70A5DED92A8DEFF600334431 /* ViewController.m */,
 				7083C3132A8CE2AB0045E13C /* AppDelegate.h */,
 				7083C3142A8CE2AB0045E13C /* AppDelegate.m */,
-				7083C3162A8CE2AB0045E13C /* SceneDelegate.h */,
-				7083C3172A8CE2AB0045E13C /* SceneDelegate.m */,
-				7083C3192A8CE2AB0045E13C /* ViewController.h */,
-				7083C31A2A8CE2AB0045E13C /* ViewController.m */,
+				70A5DED22A8DEB7E00334431 /* PanelTableCell.h */,
+				70A5DED32A8DEB7E00334431 /* PanelTableCell.m */,
 				7083C31C2A8CE2AB0045E13C /* Main.storyboard */,
 				7083C31F2A8CE2AC0045E13C /* Assets.xcassets */,
 				7083C3212A8CE2AC0045E13C /* LaunchScreen.storyboard */,
 				7083C3242A8CE2AC0045E13C /* Info.plist */,
 				7083C3252A8CE2AC0045E13C /* main.m */,
+				70A5DEE82A8DFAD500334431 /* NSObject+MethodExchange.h */,
+				70A5DEE92A8DFAD500334431 /* NSObject+MethodExchange.m */,
+				70A5DEE52A8DF8D600334431 /* CBPeripheral+KVOState.h */,
+				70A5DEE62A8DF8D600334431 /* CBPeripheral+KVOState.m */,
 			);
 			path = BlueTooth;
+			sourceTree = "<group>";
+		};
+		E85D6F39409841B5862EE2D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E15F57DA4FE5017C6BEF7BD /* Pods_BlueTooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7083C3292A8CE2AC0045E13C /* Build configuration list for PBXNativeTarget "BlueTooth" */;
 			buildPhases = (
+				80A9E5BD408F2DFC6A3BB5DF /* [CP] Check Pods Manifest.lock */,
 				7083C30C2A8CE2AB0045E13C /* Sources */,
 				7083C30D2A8CE2AB0045E13C /* Frameworks */,
 				7083C30E2A8CE2AB0045E13C /* Resources */,
+				B415195BC45B01DEF6A406DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,15 +202,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80A9E5BD408F2DFC6A3BB5DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueTooth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B415195BC45B01DEF6A406DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueTooth/Pods-BlueTooth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueTooth/Pods-BlueTooth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueTooth/Pods-BlueTooth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7083C30C2A8CE2AB0045E13C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7083C31B2A8CE2AB0045E13C /* ViewController.m in Sources */,
+				70A5DEE72A8DF8D600334431 /* CBPeripheral+KVOState.m in Sources */,
+				7092A33A2A8E352E00A8521E /* DisplayModel.m in Sources */,
+				70A5DEE12A8DF1AB00334431 /* BlueToothTableViewCell.m in Sources */,
+				70A5DEE02A8DF1AB00334431 /* BlueToothModel.m in Sources */,
+				70A5DEEA2A8DFAD500334431 /* NSObject+MethodExchange.m in Sources */,
+				70A5DEE42A8DF1D200334431 /* PeripheralDetailViewController.m in Sources */,
 				7083C3152A8CE2AB0045E13C /* AppDelegate.m in Sources */,
+				70A5DED42A8DEB7E00334431 /* PanelTableCell.m in Sources */,
 				7083C3262A8CE2AC0045E13C /* main.m in Sources */,
-				7083C3182A8CE2AB0045E13C /* SceneDelegate.m in Sources */,
+				70A5DED72A8DEC4500334431 /* CoreBluetoothManager.m in Sources */,
+				70A5DEDA2A8DEFF600334431 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,25 +397,29 @@
 		};
 		7083C32A2A8CE2AC0045E13C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E248E180308245B4639C6C00 /* Pods-BlueTooth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NUVR7ZMN93;
+				DEVELOPMENT_TEAM = E695D9MPGR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlueTooth/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "访问蓝牙权限以用于设备数据读取和发送";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tzq.www.bluetooth.BlueTooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubt.www.bluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,25 +428,29 @@
 		};
 		7083C32B2A8CE2AC0045E13C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8BFB95E8B490A595DA2EE13 /* Pods-BlueTooth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NUVR7ZMN93;
+				DEVELOPMENT_TEAM = E695D9MPGR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlueTooth/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "访问蓝牙权限以用于设备数据读取和发送";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tzq.www.bluetooth.BlueTooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubt.www.bluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,0 +1,56 @@
+PODS:
+  - CocoaLumberjack (3.8.0):
+    - CocoaLumberjack/Core (= 3.8.0)
+  - CocoaLumberjack/Core (3.8.0)
+  - CoreEditText (1.7.1)
+  - CustomIOSAlertView (0.9.5)
+  - IQKeyboardManager (6.5.12)
+  - Masonry (1.1.0)
+  - MJExtension (3.4.1)
+  - SVProgressHUD (2.2.5)
+  - TYAlertController (1.2.0)
+  - XJPCategoryKit (1.1.3)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - CoreEditText
+  - CustomIOSAlertView
+  - IQKeyboardManager
+  - Masonry
+  - MJExtension
+  - SVProgressHUD
+  - TYAlertController
+  - XJPCategoryKit
+  - YYKit
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - CoreEditText
+    - CustomIOSAlertView
+    - IQKeyboardManager
+    - Masonry
+    - MJExtension
+    - SVProgressHUD
+    - TYAlertController
+    - XJPCategoryKit
+    - YYKit
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 78abfb691154e2a9df8ded4350d504ee19d90732
+  CoreEditText: 2a6518f61bad4f20d69a0f9a51f279f242d239c6
+  CustomIOSAlertView: cc4fa8e36219be3fd5ebcd40789f5b4aaae0f38e
+  IQKeyboardManager: b1fd66ccf7a79095bdcc4a2735231586f744216e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TYAlertController: c121090edb0bea7426f987da94cdddd81eef4231
+  XJPCategoryKit: d22761636c10c3f97ec06bcaf933addbf17b0488
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 40546b7017b6f39209f3ef2b5b2a491614faf68e
+
+COCOAPODS: 1.12.1

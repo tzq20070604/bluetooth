@@ -1,0 +1,6 @@
+framework module XJPCategoryKit {
+  umbrella header "XJPCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

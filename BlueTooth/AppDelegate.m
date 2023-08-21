@@ -6,8 +6,14 @@
 //
 
 #import "AppDelegate.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
-@interface AppDelegate ()
+
+//设置默认的log等级
+DDLogLevel ddLogLevel = DDLogLevelDebug;
+
+@interface AppDelegate ()<DDLogFormatter>
 
 @end
 
@@ -16,25 +22,39 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self setupLog];
+    [SVProgressHUD setMinimumDismissTimeInterval:1];
+    [SVProgressHUD setMaximumDismissTimeInterval:2];
     return YES;
 }
 
-
-#pragma mark - UISceneSession lifecycle
-
-
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
+- (void)setupLog {
+    //修改Logs文件夹的位置
+    NSString *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
+    NSString *logsDirectory = [paths stringByAppendingPathComponent:@"BlueToothApp"];
+    DDLogFileManagerDefault *defaultManager = [[DDLogFileManagerDefault alloc] initWithLogsDirectory:logsDirectory];
+    DDFileLogger *fileLogger = [[DDFileLogger alloc] initWithLogFileManager:defaultManager];
+    fileLogger.rollingFrequency = 60 * 60 * 24; // 24 hours
+    fileLogger.logFileManager.maximumNumberOfLogFiles = 12;
+    fileLogger.logFileManager.logFilesDiskQuota = 1024*1024*20;
+    fileLogger.logFormatter = self;
+    [DDLog addLogger:fileLogger];
 }
 
-
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+#pragma mark - DDLogFormatter
+- (nullable NSString *)formatLogMessage:(DDLogMessage *)logMessage NS_SWIFT_NAME(format(message:)) {
+    logMessage->_timestamp = [self getLocalDate];
+//    NSString *formatLog = [NSString stringWithFormat:@"%@%@ line:%ld %@\n\n",logMessage->_timestamp, logMessage->_function,logMessage->_line,logMessage->_message];
+    NSString *formatLog = [NSString stringWithFormat:@"%@%@\n\n",logMessage->_timestamp, logMessage->_message];
+    return formatLog;
 }
-
+// 调整timestamp
+- (NSDate *)getLocalDate{
+    NSDate *date = [NSDate date];
+    NSTimeZone *zone = [NSTimeZone systemTimeZone];
+    NSInteger interval = [zone secondsFromGMTForDate: date];
+    NSDate *localDate = [date dateByAddingTimeInterval: interval];
+    return localDate;
+}
 
 @end
